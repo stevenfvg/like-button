@@ -15,5 +15,6 @@ document.querySelector('#app').innerHTML = `
 // Function that gets HTML elements as parameters
 setupCounter(
     document.querySelector('#counter'),
-    document.querySelector('#decrement')
+    document.querySelector('#decrement'),
+    document.querySelector('title')
 );
